@@ -171,6 +171,16 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ 
+}
+@media screen and (min-width: 480px) {
+  .image, .global_container_ {
+    
+    background-size: contain;
+
+    
+    
+  }
 }
 .col {
   padding: 7px 0 354px;
@@ -182,6 +192,14 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+@media screen and (min-width: 480px) {
+  .image, .global_container_ ,.col{
+    
+   
+    
+    
+  }
 }
 .l-constrained-3 {
   margin: 0 auto;
