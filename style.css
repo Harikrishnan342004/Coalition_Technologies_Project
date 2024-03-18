@@ -30,7 +30,7 @@ footer, header, menu, nav, section, time {
 }
 
 body {
-  line-height: 2;
+  line-height: 1;
   color: black;
   background: white;
 }
